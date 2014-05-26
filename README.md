@@ -9,3 +9,5 @@ TO USE:
   Optionally, you can enter the file type of the file you are trying to play as the first argument for the program. This will make the script specifically target files of that type.
   Next, enter the whole or parts of the name of the file you want to play. If you know the (partial) names of folders it is nested in, enter those too. This part is not case sensitive.
     The same can be done for a directory, in which case the script will play any files in that directory (but won't descend into any others). This allows users to play an album of music or open a whole folder of images for a slideshow.
+
+  In addition, this script can exclude specified (hardcoded) directories from its search, which can then be specifically searched if a code is input as the first argument for the script.
