@@ -11,3 +11,5 @@ TO USE:
     The same can be done for a directory, in which case the script will play any files in that directory (but won't descend into any others). This allows users to play an album of music or open a whole folder of images for a slideshow.
 
   In addition, this script can exclude specified (hardcoded) directories from its search, which can then be specifically searched if a code is input as the first argument for the script.
+
+  This script uses 'mpv' and 'feh' to play media / image files and 'locate' and 'grep' to do the file searching.
